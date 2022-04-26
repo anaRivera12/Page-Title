@@ -1,0 +1,13 @@
+body {
+    background: lightgreen;
+    animation: stretch 2s linear;
+}
+
+@keyframes stretch {
+    0% {
+        font-size: 3px;
+    }
+    100% {
+        font-size:300px;
+    }
+}
